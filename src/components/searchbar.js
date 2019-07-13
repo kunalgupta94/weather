@@ -7,6 +7,7 @@ import './searchbar.css';
 //searcValues
 //inputHandler
 //optionSelectorHandler
+
 const SearchBar = (props) => {
     let divVar = []
     if (props.showOptions && (props.input !== '')) {
