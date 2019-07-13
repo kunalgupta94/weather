@@ -31,3 +31,30 @@
     transform: rotate(360deg);
   }
 }
+
+.app-main-div {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px 100px 2fr;
+}
+
+.search-div {
+  grid-row: 2/3;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+.weather-card-div {
+  grid-row: 3/4;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.weather-title {
+  margin: auto;
+  grid-row: 1/2;
+  vertical-align: middle;
+  font-size: 3em;
+}
